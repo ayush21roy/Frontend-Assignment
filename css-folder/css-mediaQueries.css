@@ -1,0 +1,142 @@
+.line3 {
+    visibility: hidden;
+}
+
+@media only screen and (max-width:830px) {
+    .line3 {
+        visibility: visible;
+        margin-left: 10rem;
+    }
+
+
+    .slider,
+    .logos,
+    footer,
+    .btm-text-2 div img {
+        margin-left: 20rem;
+    }
+
+    .head-text,
+    .head-img {
+        display: -webkit-inline-box;
+    }
+
+    .btm {
+        display: table-cell;
+    }
+
+}
+
+@media only screen and (max-width : 1200px) {
+    .nav-right {
+        visibility: hidden;
+    }
+
+    .line3 {
+        visibility: visible;
+        padding-right: 2rem;
+    }
+
+}
+
+@media only screen and (max-width : 1050px) {
+
+    .head-text,
+    .head-img,
+    .slider,
+    .brand-text,
+    .logos,
+    .mid-text,
+    .mid-strike-img,
+    .image-text,
+    .grey-box,
+    .btm {
+        padding-left: 15rem;
+    }
+
+    .grey-img,
+    .grey-btm {
+        padding-right: 15rem;
+    }
+
+    footer,
+    .foot-er {
+        background-color: #fff;
+        padding-left: 15rem;
+    }
+
+    .line3 {
+        visibility: visible;
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width:390px) {
+
+    .head-text,
+    .head-img {
+        display: -webkit-inline-box;
+    }
+
+    .line3 {
+        visibility: visible;
+        margin-left: 10rem;
+    }
+
+    .btm {
+        display: table-cell;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .head-text,
+    .head-img {
+        display: -webkit-inline-box;
+    }
+
+    .line3 {
+        visibility: visible;
+        margin-left: 10rem;
+    }
+
+    .btm {
+        display: table-cell;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .head-text,
+    .head-img {
+        display: -webkit-inline-box;
+    }
+
+    .line3 {
+        visibility: visible;
+        margin-left: 10rem;
+    }
+
+    .btm {
+        display: table-cell;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .head-text,
+    .head-img {
+        display: -webkit-inline-box;
+    }
+
+    .btm {
+        display: table-cell;
+    }
+
+    .line3 {
+        visibility: visible;
+        margin-left: 10rem;
+    }
+
+
+}

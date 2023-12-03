@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*--------------------------------- Navigation Bar ------------------------------ */
+/* .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+} */
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: red; */
+    padding: 1rem;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 18rem;
+    /* background-color: yellow; */
+}
+
+.nav-left li {
+    margin-left: 24px;
+}
+
+.nav-right li {
+    padding-left: 20px;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+/* --------------------------- Head Text and Image -----------------------------*/
+.head-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.head-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+/* -------------------------------- Slider ------------------------------------- */
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.card-slider .card {
+    /* border: 0.5px solid gray; */
+    box-shadow: 2px 2px 8px #b4b3b3;
+    border-radius: 6%;
+    width: 222px;
+    height: 130px;
+}
+
+.card-slider .card .card-text-1 {
+    margin-left: 22px;
+    margin-top: 15px;
+}
+
+.card-text-1 img {
+    margin-right: 12px;
+}
+
+.card-slider .card .card-text-2 {
+    /* font-size: 1rem; */
+    margin: 12px;
+}
+
+/* ------------------------------ Brands & Tags ----------------------------------- */
+
+.brand-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bt-1 {
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* --------------------------------- Logos ----------------------------------------- */
+
+.logos-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 30px;
+}
+
+/* ---------------------------- Tag & pencil img ----------------------------------- */
+
+.mid-text {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.mid-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.mid-text .midtext-box {
+    font-size: 3rem;
+    font-weight: bold;
+    /* margin: 15px; */
+
+}
+
+.mid-strike-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 6rem;
+}
+
+/*------------------------ lookUp illustration & text --------------------------  */
+
+.image-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+    margin-left: 7rem;
+
+}
+
+.img-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-texts h2 {
+    font-size: 2.5rem;
+}
+
+/* ------------------------ boxes ------------------------- */
+
+.grey-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+    margin-left: 7rem;
+    border-radius: 3%;
+    background-color: #c4c4c4;
+    width: 990px;
+    height: 800px;
+}
+
+.grey-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.grey-texts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: -24rem;
+    gap: 6px;
+
+    font-size: 20px;
+}
+
+.grey-btn div button {
+    border-style: none;
+    width: 65px;
+    height: 25px;
+    border-radius: 20%;
+}
+
+/* ----------------------- bottom above footer -------------------- */
+.btm,
+.btm-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btm-text .t1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.btm-text .t2 {
+    font-size: 1.2rem;
+}
+
+.btm-text-2 span {
+    padding: 10px;
+}
+
+/* ----------------------------------- Footer -------------------------------------- */
+
+footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 227, 227);
+}
+
+.foot-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 20rem;
+    margin-top: 2rem;
+}
+
+.foot-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 20rem; */
+
+}
+
+.footr1,
+.foot-r2,
+.foot-r3 {
+    padding-left: 3rem;
+}
+
+
+
+.foot-right ul {
+    list-style: none;
+}
+
+.icon span img {
+    width: 30px;
+    height: 30px;
+}
+
+.li-head {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+select {
+    width: 121px;
+    height: 36px;
+    box-shadow: #b4b3b3;
+    border-radius: 4%;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.links {
+    text-decoration: none;
+}
+
+.foot-r1 ul li,
+.foot-r2 ul li,
+.foot-r3 ul li {
+    margin: 10px;
+}
+
+.icon span {
+    margin: 10px;
+}
+
+.foot-er{
+    background-color: rgb(234, 227, 227)
+}

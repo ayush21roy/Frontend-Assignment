@@ -1,0 +1,60 @@
+.notion-btn {
+    width: 122px;
+    height: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.notion-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ------------------------- links ----------------------------------- */
+
+.links:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* ------------------------------ cards - hover ------------------------------ */
+.card1:hover {
+    background-color: rgba(243, 173, 243, 0.862);
+    border: 3px solid rgb(149, 57, 149);
+    cursor: pointer;
+}
+
+.card2:hover {
+    background-color: rgba(249, 198, 179, 0.805);
+    border: 3px solid orangered;
+    cursor: pointer;
+}
+
+.card3:hover {
+    background-color: rgba(175, 175, 245, 0.749);
+    border: 3px solid blue;
+    cursor: pointer;
+}
+
+.card4:hover {
+    background-color: rgba(238, 238, 146, 0.945);
+    border: 3px solid rgba(174, 174, 5, 0.778);
+    cursor: pointer;
+}
+
+/* --------------------------------- footer-icon-hover ------------------------------ */
+
+.icon span img:hover {
+    background-color: rgb(161, 148, 148);
+    cursor: pointer;
+}
+
+/* -------------------------- footer links hover ----------------------------------- */
+
+.li-hover:hover {
+    color: #097ec7;
+    cursor: pointer;
+}
